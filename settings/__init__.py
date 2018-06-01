@@ -30,7 +30,8 @@ INSTALLED_APPS = (
 
     'apps.main',
     'apps.menus',
-    'apps.articles'
+    'apps.articles',
+    'apps.foo',
 )
 
 
