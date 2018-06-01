@@ -12,26 +12,21 @@ SITE_ADMIN_TITLE = '{} Administration'.format(SITE_TITLE)
 
 
 INSTALLED_APPS = (
+    'apps.articles'
+    'apps.foo',
+    'apps.main',    
+    'apps.menus',
+    'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
-    'django.contrib.sessions',
     'django.contrib.messages',
-    'django.contrib.staticfiles',
+    'django.contrib.sessions',
     'django.contrib.sites',
-
-    'suit',
-    'mptt',
-
-    'django.contrib.admin',
-
-    'rest_framework',
-
+    'django.contrib.staticfiles',
     'django_extensions',
-
-    'apps.main',    
-    'apps.foo',
-    'apps.menus',
-    'apps.articles'
+    'mptt',
+    'rest_framework',
+    'suit',
 )
 
 
