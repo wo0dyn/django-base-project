@@ -28,7 +28,8 @@ INSTALLED_APPS = (
 
     'django_extensions',
 
-    'apps.main',
+    'apps.main',    
+    'apps.foo',
     'apps.menus',
     'apps.articles'
 )
